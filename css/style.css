@@ -1,7 +1,34 @@
+
+#main {
+  height: auto;
+  min-height: 200px;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 8px;
+  border: 1px solid #EFEFEF;
+}
+
+#header {
+  text-align: center;
+  position: relative;
+}
+
+
+#img-div {
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  border: 1px solid #EFEFEF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .img {
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: center;
+
 }
