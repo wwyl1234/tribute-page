@@ -1,42 +1,56 @@
 
+/* Style the main section */
 #main {
   height: auto;
   min-height: 200px;
   align-items: center;
   padding: 5px;
   margin-bottom: 8px;
-  border: 1px solid #EFEFEF;
-  background-color: #ffffba ;
+  background-image: url(../media/yellow_blocky_background.png);
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+
 }
 
+/* Style the header */
 #header {
   text-align: center;
   position: relative;
+  
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
 }
 
 
+/* Style the img-div */
 #img-div {
   height: 50%;
   width: 50%;
   min-width: 220px;
   justify-content: center;
-  border: 1px solid #EFEFEF;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffa1;
+  display: flex;
+ 
+  padding: 2em;
+  
 }
 
-.img {
-  height: 100%;
-  width: 100%;
-
-
+/* Style the img */
+img {
+  height: 20em;
+  width: 20em;
+  object-fit: cover;
+  border: 1px solid black;
 }
 
 
 /* Style bottom section */
 #bottom-section {
-  padding: 1em;
+  padding: 1em 2em 1em 2em;
   line-height: 1.5;
-  background-color: #ffff62;
+  font-family: 'Roboto Mono', monospace;
+  
 }
